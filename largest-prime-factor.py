@@ -17,7 +17,7 @@ What is the largest prime factor of the number 600851475143 ?
 #number = 13195
 number = 600851475143
 
-def find_factors(number, factors =[]):
+def find_factors(number, factors = []):
     div = 2
     while number % div:
         div += 1
@@ -33,4 +33,4 @@ print('Answer: ', factors[-1])
 
 
 
-    
+                                               
